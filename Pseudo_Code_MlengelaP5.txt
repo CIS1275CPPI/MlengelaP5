@@ -1,0 +1,45 @@
+Pseudo code for P5
+
+Functions.h
+
+void WriteHeader(void);
+
+int HowManyGallons();
+int HowManyGallons();
+void AskForNameAndShape(string& rName, bool& rIsRectangular);
+void AskForDimensions();
+void AskForDimensions();
+void AskForPaintInfo(int& rCoats, int& rCoverage, bool& rPaintCeiling);
+void Goodbye(void);
+void DoAgain(void);
+
+
+Functions.cpp
+
+//Display Header to introduce the program. 
+//Calculates how many cans of paint needed for a rectangular room.
+//Calculates how many cans of paint needed for a circular room.
+//Gets info from customer.
+       //Get name string.
+	//Ask the user the size of the room.
+	//Ask for input of the room.
+//Gets dimensions of the circular room.
+	//Get radius of the room.
+	//Get the height of the room. 
+	//Get the percent to not paint. 
+//Gets dimensions of the rectangular room.
+	//Get the length.
+	//Get the width.
+	//Get the height. 
+	//Get the percent to not paint.
+//Gets info on the paint used. 
+	//Get the number of coats from the user. 
+	//Get the coverage in square feet per gallon. 
+	//Get the input.
+//Display goodbye message.
+//Ask if the user want to calculate more rooms.
+//Get the option from the user. 
+//Get the input string.
+
+MlengelaP5.cpp
+
