@@ -54,8 +54,9 @@ Ask the customer if they want to estimate another room.  When the customer has f
 
 
 # Core Features
-  * Overloaded Functions
-  * Pointers and References
+  * [Overloaded Functions](https://www.w3schools.com/cpp/cpp_function_overloading.asp)
+  * [Pointers and References](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/cp4_PointerReference.html)
+  * [stringstream(ss)](https://www.scaler.com/topics/string-stream-in-cpp/)
 # The Library Usage
   * Cmath
 # Contributions
