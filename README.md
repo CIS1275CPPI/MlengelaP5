@@ -6,7 +6,7 @@ The room is 14 ft long, 12.8 in wide, and 8 ft high.  Paint the ceiling. Coverag
 _PercentNoPaint_ = 10.  Compare it to your program to see if it is running correctly.
 
 ## This will be a multi-file program
-You just got a job at the C++ Hardware Store in the paint department.  Customers come in and ask you how much paint they will need to paint a room, walls, and ceiling.  You do not paint windows or doors.  You want to make use of your programming skills, so you write a program to calculate the gallons of paint needed.
+You just got a job at the **C++ Hardware Store** in the paint department.  Customers come in and ask you how much paint they will need to paint a room, walls, and ceiling.  You do not paint windows or doors.  You want to make use of your programming skills, so you write a program to calculate the gallons of paint needed.
 
 In the main function, you will need to declare the variables needed.  After you write your course header function, _WriteHeader_, open a do-while or while loop.  Then you will call these functions:
 
@@ -19,12 +19,24 @@ In the main function, you will need to declare the variables needed.  After you 
 	**Circular**: radius, height, and a similarly constructed string description
 These are two overloaded functions with this name, one for the rectangular room, one for the circular room.  These functions also ask the user to provide an estimate of wall space that consists of doors and windows. (in %).  Both functions have void returns and are passed the dimensions and percent of the walls not to paint, and a description using pointers. 
 
-5. _HowManyGallons_, which passes the dimensions, the paint info, and the percent of walls not to be painted.  It returns an int, the number of full gallons to buy.  The function calculates the wall area to be painted, the ceiling area (if any), and using the number of coats and the paint coverage, calculates the exact amount of paint, and then figures out how many whole gallons to buy.
+5. _HowManyGallons_, which passes the dimensions, the paint info, and the percent of walls not to be painted.  It returns an int, the number of full gallons to buy.  The function calculates the wall area to be painted, the ceiling area (if any), and, using the number of coats and the paint coverage, calculates the exact amount of paint, and then figures out how many whole gallons to buy.
 
 ## This function is also overloaded. 
 There will be one function for the rectangular shape, and one for the circular room.  They will be passed the dimensions, the paint coverage, the number of coats, whether the ceiling will be painted, and the percentNoPaint.
 
 ## To Summarize the functions:
+
+| **Return Type**  | **Function Name** | **Function Arguments** | **Function Description** |
+| -----------------| ----------------- | -----------------------| -------------------------|
+| __void__         | WriteHeader       | ()                     | Intro to the program     |
+| __int__          | HowManyGallons    | (double length, double width, double height, int coverage, int coats, string ceiling, int percentNoPaint)| Calculations how many cans of paint needed for a rectangular room |
+| __int__          | HowManyGallons    | (double radius, double height, in coverage, int coats, string ceiling, int percentNoPaint) | Calculates how many cans of paint needed for a circular room |
+| __void__         | AskForNameAndShape | (string &rName, int rShape) | Gets info from customer |
+| __void__         | AskForDimensions  | (double *pRadius, double *pHeight, int *pPercentNoPaint string *pDimens)| Gets dimensions of the circular room |
+| __void__         | AskForDimensions  | (double *plength, double *pWidth, double *pHeight, int *pPercentNoPaint, string *pDimens| Gets dimensions for the rectangular room |
+| __void__         | AskForPaintInfo   | (int&rCoats, int&rCoverage, string &rCeiling) | Gets info on the paint used | 
+
+
 
 # Core Features
   * Overloaded Functions
