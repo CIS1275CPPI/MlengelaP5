@@ -49,6 +49,10 @@ There will be one function for the rectangular shape, and one for the circular r
 
 3. Write your results to 2 decimal places of precision.
 
+
+Ask the customer if they want to estimate another room.  When the customer has finished, write a good-bye message to the customer before exiting.
+
+
 # Core Features
   * Overloaded Functions
   * Pointers and References
