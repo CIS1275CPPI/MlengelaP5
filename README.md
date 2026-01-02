@@ -34,7 +34,9 @@ There will be one function for the rectangular shape, and one for the circular r
 | __void__         | AskForNameAndShape | (string &rName, int rShape) | Gets info from customer |
 | __void__         | AskForDimensions  | (double *pRadius, double *pHeight, int *pPercentNoPaint string *pDimens)| Gets dimensions of the circular room |
 | __void__         | AskForDimensions  | (double *plength, double *pWidth, double *pHeight, int *pPercentNoPaint, string *pDimens| Gets dimensions for the rectangular room |
-| __void__         | AskForPaintInfo   | (int&rCoats, int&rCoverage, string &rCeiling) | Gets info on the paint used | 
+| __void__         | AskForPaintInfo   | (int&rCoats, int&rCoverage, string &rCeiling) | Gets info on the paint used |
+| __void__         | Goodbye           | () | Say Goodbye |
+| __void__         | DoAgain           | () | Ask if the user want to calculate more rooms|
 
 
 
