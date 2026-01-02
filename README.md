@@ -39,6 +39,15 @@ There will be one function for the rectangular shape, and one for the circular r
 | __void__         | DoAgain           | () | Ask if the user want to calculate more rooms|
 
 
+<ins>**In main**</ins> after the calculations are returned, display the results to your customer:  
+
+1. The customer's name, the shape and dimensions of the room, whether the ceiling is to be painted,  how much will be subtracted for doors and windows, the number of coats, and the paint coverage.  
+
+2. Then report the exact amount of paint required, and the number of whole gallon cans of paint needed.  Present this information in a nicely formatted manner.  
+
+3. You may write this report as a string, perhaps using stringstream, or simply using cout.
+
+3. Write your results to 2 decimal places of precision.
 
 # Core Features
   * Overloaded Functions
