@@ -1,1 +1,4 @@
-# MlengelaP5
+# The Paint Estimator
+# Core Features
+# Usage
+# Contributions
